@@ -1,0 +1,41 @@
+header{
+    background:linear-gradient(120deg,gray ,lightgray,gray);
+    text-align:center;
+    padding:2em 1em;
+}
+
+nav{
+    background-color:skyblue;
+    display:flex;
+}
+
+.menu{
+    padding:0.6em;
+    flex:70%;
+}
+
+.button{
+    border: 1px solid;
+    margin:5px;
+    padding:5px;
+}
+
+.button:hover{
+    background-color:lightgoldenrodyellow;
+}
+
+.search-zone{
+    flex:30%;
+    margin:0.5em;
+}
+
+
+.search-zone input{
+    width:90%;
+    border-radius:1em;
+}
+
+canvas{
+    margin:50px;
+    background-color: beige;
+}
